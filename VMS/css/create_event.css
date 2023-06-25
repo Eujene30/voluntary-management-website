@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.event-form {
+    width: 400px;
+    margin: 80px auto;
+}
+.edit-event {
+    width: 400px;
+    margin: 80px auto;
+}
+table {
+    width: 100%;
+    margin-top: 60px; 
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+    display: flex;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+button[type="submit"] {
+    margin-bottom: 100px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding:10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.cancel-btn{
+    margin-bottom: 100px;
+    margin-left: 20px;
+    background-color: #dc3432;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.cancel-btn:hover {
+    background-color: #a80808;
+
+}
+.dropdown-toggle {
+    cursor: pointer;
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    min-width: 150px;
+    padding: 10px;
+    background-color: #26a9c3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-toggle:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+
+
